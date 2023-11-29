@@ -103,7 +103,7 @@ def regAgain():
 
 doReg = 45
 while(doReg != 1 or 0 or 2):
-    doReg = int(input(Fore.WHITE + Back.BLACK + "Do you want to register? " + Fore.GREEN + "1" + Fore.WHITE + " for yes " + Fore.RED +  "0" + Fore.WHITE + " for no. Type " + Fore.CYAN + "2" + Fore.WHITE + " to load userAndPass.txt: "))
+    doReg = int(input(Style.BRIGHT + Fore.WHITE + Back.BLACK + "Do you want to register? " + Fore.GREEN + "1" + Fore.WHITE + " for yes " + Fore.RED +  "0" + Fore.WHITE + " for no. Type " + Fore.CYAN + "2" + Fore.WHITE + " to load userAndPass.txt: "))
 
     if(doReg == 1):
         register()
